@@ -2,7 +2,7 @@
 
 | Logo | Home |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| ![logo](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/ca638824-540a-4547-9794-8a9c18678bbd) | ![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/484ada02-0234-48bd-bb03-d4d586183c4b)| 
+| <img src="https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/ca638824-540a-4547-9794-8a9c18678bbd" width=250 height=250> | ![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/484ada02-0234-48bd-bb03-d4d586183c4b)| 
 
 
 ### :moneybag: A Simple Banking App that's build with 
