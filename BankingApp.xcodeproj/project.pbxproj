@@ -20,6 +20,12 @@
 		8C0C7E5E2AD28E92003F229A /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C7E5D2AD28E92003F229A /* TransactionRow.swift */; };
 		8C0C7E602AD29072003F229A /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C7E5F2AD29072003F229A /* TransactionModel.swift */; };
 		8C0C7E622AD293AC003F229A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C7E612AD293AC003F229A /* DateExtension.swift */; };
+		8CF8C5B02AD40851009BBDF1 /* CustomTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8C5AF2AD40851009BBDF1 /* CustomTabBarButton.swift */; };
+		8CF8C5B22AD40B97009BBDF1 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8C5B12AD40B97009BBDF1 /* ViewRouter.swift */; };
+		8CF8C5B62AD40BCF009BBDF1 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8C5B52AD40BCF009BBDF1 /* TabBarViewModel.swift */; };
+		8CF8C5BA2AD40C1F009BBDF1 /* WalletScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8C5B92AD40C1F009BBDF1 /* WalletScreenView.swift */; };
+		8CF8C5BE2AD40C52009BBDF1 /* StatisticsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8C5BD2AD40C52009BBDF1 /* StatisticsScreenView.swift */; };
+		8CF8C5C22AD40C7E009BBDF1 /* ProfileScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8C5C12AD40C7E009BBDF1 /* ProfileScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,12 @@
 		8C0C7E5D2AD28E92003F229A /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		8C0C7E5F2AD29072003F229A /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		8C0C7E612AD293AC003F229A /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		8CF8C5AF2AD40851009BBDF1 /* CustomTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarButton.swift; sourceTree = "<group>"; };
+		8CF8C5B12AD40B97009BBDF1 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		8CF8C5B52AD40BCF009BBDF1 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		8CF8C5B92AD40C1F009BBDF1 /* WalletScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletScreenView.swift; sourceTree = "<group>"; };
+		8CF8C5BD2AD40C52009BBDF1 /* StatisticsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsScreenView.swift; sourceTree = "<group>"; };
+		8CF8C5C12AD40C7E009BBDF1 /* ProfileScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +164,8 @@
 		8C0C7E492AD13DDB003F229A /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				8CF8C5C02AD40C6F009BBDF1 /* View */,
+				8CF8C5BF2AD40C69009BBDF1 /* ViewModel */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -159,6 +173,8 @@
 		8C0C7E4A2AD13DE3003F229A /* Statisitcs */ = {
 			isa = PBXGroup;
 			children = (
+				8CF8C5BC2AD40C3C009BBDF1 /* View */,
+				8CF8C5BB2AD40C38009BBDF1 /* ViewModel */,
 			);
 			path = Statisitcs;
 			sourceTree = "<group>";
@@ -166,6 +182,8 @@
 		8C0C7E4B2AD13DEC003F229A /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				8CF8C5B82AD40C0F009BBDF1 /* View */,
+				8CF8C5B72AD40C09009BBDF1 /* ViewModel */,
 			);
 			path = Wallet;
 			sourceTree = "<group>";
@@ -173,8 +191,8 @@
 		8C0C7E4C2AD13DF8003F229A /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				8C0C7E352AD13B8D003F229A /* ContentView.swift */,
-				8C0C7E592AD1B187003F229A /* MainTabView.swift */,
+				8CF8C5B42AD40BAD009BBDF1 /* View */,
+				8CF8C5B32AD40BA3009BBDF1 /* ViewModel */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -209,7 +227,71 @@
 			isa = PBXGroup;
 			children = (
 				8C0C7E552AD198BC003F229A /* MainToolbar.swift */,
+				8CF8C5AF2AD40851009BBDF1 /* CustomTabBarButton.swift */,
 				8C0C7E572AD198E8003F229A /* PagesToolbar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8CF8C5B32AD40BA3009BBDF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8CF8C5B52AD40BCF009BBDF1 /* TabBarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CF8C5B42AD40BAD009BBDF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C0C7E352AD13B8D003F229A /* ContentView.swift */,
+				8C0C7E592AD1B187003F229A /* MainTabView.swift */,
+				8CF8C5B12AD40B97009BBDF1 /* ViewRouter.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8CF8C5B72AD40C09009BBDF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CF8C5B82AD40C0F009BBDF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CF8C5B92AD40C1F009BBDF1 /* WalletScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8CF8C5BB2AD40C38009BBDF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CF8C5BC2AD40C3C009BBDF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CF8C5BD2AD40C52009BBDF1 /* StatisticsScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8CF8C5BF2AD40C69009BBDF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CF8C5C02AD40C6F009BBDF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CF8C5C12AD40C7E009BBDF1 /* ProfileScreenView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,14 +369,20 @@
 				8C0C7E602AD29072003F229A /* TransactionModel.swift in Sources */,
 				8C0C7E5E2AD28E92003F229A /* TransactionRow.swift in Sources */,
 				8C0C7E362AD13B8D003F229A /* ContentView.swift in Sources */,
+				8CF8C5B22AD40B97009BBDF1 /* ViewRouter.swift in Sources */,
 				8C0C7E562AD198BC003F229A /* MainToolbar.swift in Sources */,
 				8C0C7E582AD198E8003F229A /* PagesToolbar.swift in Sources */,
+				8CF8C5BA2AD40C1F009BBDF1 /* WalletScreenView.swift in Sources */,
 				8C0C7E522AD19207003F229A /* HomeScreenView.swift in Sources */,
+				8CF8C5B02AD40851009BBDF1 /* CustomTabBarButton.swift in Sources */,
 				8C0C7E622AD293AC003F229A /* DateExtension.swift in Sources */,
 				8C0C7E5A2AD1B187003F229A /* MainTabView.swift in Sources */,
+				8CF8C5BE2AD40C52009BBDF1 /* StatisticsScreenView.swift in Sources */,
 				8C0C7E5C2AD28E38003F229A /* TransactionsView.swift in Sources */,
 				8C0C7E502AD18C75003F229A /* CardView.swift in Sources */,
+				8CF8C5B62AD40BCF009BBDF1 /* TabBarViewModel.swift in Sources */,
 				8C0C7E342AD13B8D003F229A /* MonyManagmentApp.swift in Sources */,
+				8CF8C5C22AD40C7E009BBDF1 /* ProfileScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

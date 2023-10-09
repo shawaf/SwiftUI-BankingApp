@@ -11,7 +11,7 @@ import SwiftUI
 struct MonyManagmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().preferredColorScheme(.light)
         }
     }
 }
