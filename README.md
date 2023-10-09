@@ -2,7 +2,7 @@
 
 | Logo | Home |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| ![logo](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/ca638824-540a-4547-9794-8a9c18678bbd) | ![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/491be09d-a590-46a8-a1c4-6d14438fbf9c) | 
+| ![logo](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/ca638824-540a-4547-9794-8a9c18678bbd) | ![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/484ada02-0234-48bd-bb03-d4d586183c4b)| 
 
 
 A Simple Banking App that's build with 
