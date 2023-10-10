@@ -6,9 +6,9 @@
 - MVVM
 
   
-| Logo | Home |
-|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| <img src="https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/ca638824-540a-4547-9794-8a9c18678bbd" height=300> | ![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/484ada02-0234-48bd-bb03-d4d586183c4b)| 
+| Logo | <img src="https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/ca638824-540a-4547-9794-8a9c18678bbd" height=300>  |
+|------|--------------------------------------------------------------------------------------------------------------------------|
+| Home | ![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/484ada02-0234-48bd-bb03-d4d586183c4b) | ![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/484ada02-0234-48bd-bb03-d4d586183c4b) |
 
 
 ### :memo: Feature List 
