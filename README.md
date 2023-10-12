@@ -5,10 +5,10 @@
 - Firebase Firestore
 - MVVM
 
-  
-| Logo | <img src="https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/ca638824-540a-4547-9794-8a9c18678bbd" height=300>  |
+### Screens  
+| Home | Profile |
 |------|--------------------------------------------------------------------------------------------------------------------------|
-| Screens | ![ScreenShots](![WhatsApp Image 2023-10-12 at 3 56 15 PM](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/53db0a4b-f8a7-45aa-a82c-1f24ec794365) |
+|![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/6bed40db-cea5-4834-8b20-ccd516e2875a)| ![Profile](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/fdcce931-2761-4065-93bf-b950fdd638b3) |
 
 
 ### :memo: Feature List 
