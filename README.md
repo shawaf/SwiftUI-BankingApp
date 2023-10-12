@@ -8,7 +8,7 @@
   
 | Logo | <img src="https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/ca638824-540a-4547-9794-8a9c18678bbd" height=300>  |
 |------|--------------------------------------------------------------------------------------------------------------------------|
-| Home | ![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/484ada02-0234-48bd-bb03-d4d586183c4b) | ![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/484ada02-0234-48bd-bb03-d4d586183c4b) |
+| Screens | ![ScreenShots](![WhatsApp Image 2023-10-12 at 3 56 15 PM](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/53db0a4b-f8a7-45aa-a82c-1f24ec794365) |
 
 
 ### :memo: Feature List 
