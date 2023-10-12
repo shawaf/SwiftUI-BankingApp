@@ -11,7 +11,7 @@ struct MainTabView: View {
     @ObservedObject var viewRouter = ViewRouter()
     
     var body: some View {
-        VStack {
+        VStack (spacing: -10){
             viewRouter.view
             Spacer()
             HStack (alignment: .center){
@@ -25,11 +25,12 @@ struct MainTabView: View {
                 CustomTabBarButton(viewModel: .Profile, viewRouter: viewRouter)
                 Spacer()
             }
-            .frame(height: UIScreen.main.bounds.height/9)
+            .frame(height: UIScreen.main.bounds.height/10)
             .frame(maxWidth: .infinity)
             .background(Color.black)
             .foregroundColor(Color.white)
             .font(.footnote)
+            
         }.ignoresSafeArea()
     }
 }

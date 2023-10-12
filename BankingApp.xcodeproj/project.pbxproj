@@ -20,6 +20,8 @@
 		8C0C7E5E2AD28E92003F229A /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C7E5D2AD28E92003F229A /* TransactionRow.swift */; };
 		8C0C7E602AD29072003F229A /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C7E5F2AD29072003F229A /* TransactionModel.swift */; };
 		8C0C7E622AD293AC003F229A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C7E612AD293AC003F229A /* DateExtension.swift */; };
+		8C569CAD2AD810CB002B1695 /* ProfileRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C569CAC2AD810CB002B1695 /* ProfileRowView.swift */; };
+		8C569CB02AD81366002B1695 /* ProfileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C569CAF2AD81366002B1695 /* ProfileItem.swift */; };
 		8CF8C5B02AD40851009BBDF1 /* CustomTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8C5AF2AD40851009BBDF1 /* CustomTabBarButton.swift */; };
 		8CF8C5B22AD40B97009BBDF1 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8C5B12AD40B97009BBDF1 /* ViewRouter.swift */; };
 		8CF8C5B62AD40BCF009BBDF1 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8C5B52AD40BCF009BBDF1 /* TabBarViewModel.swift */; };
@@ -43,6 +45,8 @@
 		8C0C7E5D2AD28E92003F229A /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		8C0C7E5F2AD29072003F229A /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		8C0C7E612AD293AC003F229A /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		8C569CAC2AD810CB002B1695 /* ProfileRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRowView.swift; sourceTree = "<group>"; };
+		8C569CAF2AD81366002B1695 /* ProfileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItem.swift; sourceTree = "<group>"; };
 		8CF8C5AF2AD40851009BBDF1 /* CustomTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarButton.swift; sourceTree = "<group>"; };
 		8CF8C5B12AD40B97009BBDF1 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		8CF8C5B52AD40BCF009BBDF1 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 		8C0C7E492AD13DDB003F229A /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				8C569CAE2AD8135A002B1695 /* model */,
 				8CF8C5C02AD40C6F009BBDF1 /* View */,
 				8CF8C5BF2AD40C69009BBDF1 /* ViewModel */,
 			);
@@ -233,6 +238,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		8C569CAE2AD8135A002B1695 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8C569CAF2AD81366002B1695 /* ProfileItem.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		8CF8C5B32AD40BA3009BBDF1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				8CF8C5C12AD40C7E009BBDF1 /* ProfileScreenView.swift */,
+				8C569CAC2AD810CB002B1695 /* ProfileRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -373,6 +387,7 @@
 				8C0C7E562AD198BC003F229A /* MainToolbar.swift in Sources */,
 				8C0C7E582AD198E8003F229A /* PagesToolbar.swift in Sources */,
 				8CF8C5BA2AD40C1F009BBDF1 /* WalletScreenView.swift in Sources */,
+				8C569CAD2AD810CB002B1695 /* ProfileRowView.swift in Sources */,
 				8C0C7E522AD19207003F229A /* HomeScreenView.swift in Sources */,
 				8CF8C5B02AD40851009BBDF1 /* CustomTabBarButton.swift in Sources */,
 				8C0C7E622AD293AC003F229A /* DateExtension.swift in Sources */,
@@ -382,6 +397,7 @@
 				8C0C7E502AD18C75003F229A /* CardView.swift in Sources */,
 				8CF8C5B62AD40BCF009BBDF1 /* TabBarViewModel.swift in Sources */,
 				8C0C7E342AD13B8D003F229A /* MonyManagmentApp.swift in Sources */,
+				8C569CB02AD81366002B1695 /* ProfileItem.swift in Sources */,
 				8CF8C5C22AD40C7E009BBDF1 /* ProfileScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

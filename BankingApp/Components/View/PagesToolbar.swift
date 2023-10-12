@@ -10,6 +10,8 @@ import SwiftUI
 struct PagesToolbar: View {
     
     let pageTitle:String
+    let isLight:Bool
+    let showProfileImage: Bool
     
     var body: some View {
         HStack {
@@ -17,32 +19,32 @@ struct PagesToolbar: View {
                 
             } label: {
                 Image(systemName: "arrow.backward")
-                    .foregroundColor(Color.black)
+                    .foregroundColor(isLight ? Color.black : Color.white)
             }
             Spacer()
             Text(pageTitle)
                 .font(.title2)
                 .fontWeight(.bold)
+                .foregroundColor(isLight ? Color.black : Color.white)
             Spacer()
             
             Button{
                 
             } label: {
-                Image("profile_mark")
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: 35, height: 35)
-                    .clipShape(Rectangle())
-                    .background(Color.gray)
-                    .foregroundColor(.black)
-                    .cornerRadius(10)
-            }
+                Image(showProfileImage ? "profile" : "")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 35, height: 35)
+                        .clipShape(Rectangle())
+                        .foregroundColor(.black)
+                        .cornerRadius(10)
+                }
         }.padding()
     }
 }
 
 struct PagesToolbar_Previews: PreviewProvider {
     static var previews: some View {
-        PagesToolbar(pageTitle: "Statistics")
+        PagesToolbar(pageTitle: "Statistics",isLight: true , showProfileImage: false)
     }
 }
