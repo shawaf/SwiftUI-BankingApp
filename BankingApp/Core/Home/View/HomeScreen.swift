@@ -12,16 +12,16 @@ struct HomeScreen: View {
         NavigationView{
             VStack {
                 ScrollView(.vertical){
-                    MainToolbar(pageTitle: "Home", onlyImage: true)
-                    HStack{
-                        Text("My Cards")
-                            .font(.title)
-                            .fontWeight(.bold)
-                            .foregroundColor(.black)
-                        Spacer()
-                      
-                    }.padding(.leading, 20)
-                    .padding(.trailing, 20)
+                    PagesToolbar(pageTitle: "Home", isLight: true, showProfileImage: true)
+//                    HStack{
+//                        Text("My Cards")
+//                            .font(.title3)
+//                            .fontWeight(.semibold)
+//                            .foregroundColor(.black)
+//                        Spacer()
+//
+//                    }.padding(.leading, 20)
+//                    .padding(.trailing, 20)
                         ScrollView(.horizontal, showsIndicators: false){
                             LazyHStack(alignment: .top, spacing: 10){
                                 ForEach(0..<10, id: \.self) { item in
@@ -43,7 +43,7 @@ struct HomeScreen: View {
                                             .shadow(color: Color.gray.opacity(0.2), radius: 5)
                                     }
                                 }
-                            }.padding(20)
+                            }.padding( 20)
                             
                         }
                     TransactionsView(transactions: TransactionModel.Mock_Transactions)

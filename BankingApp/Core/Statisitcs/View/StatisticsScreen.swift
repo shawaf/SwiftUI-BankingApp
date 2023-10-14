@@ -12,7 +12,7 @@ struct StatisticsScreen: View {
         VStack{
             ScrollView{
                 VStack(alignment: .leading){
-                    PagesToolbar(pageTitle: "Statisitics", isLight: true, showProfileImage: true)
+                    PagesToolbar(pageTitle: "Statistics", isLight: true, showProfileImage: true)
                     HStack(spacing: 0){
                         TimeLineItemView(day: "Today", isSelected: false)
                         Divider()

@@ -13,7 +13,7 @@ struct ProfileScreen: View {
     var body: some View {
         VStack(spacing:-30){
             VStack{
-                PagesToolbar(pageTitle: "Profile", isLight: false , showProfileImage: false)
+                PagesToolbar(pageTitle: "Profile", isLight: false, showProfileImage: true)
                     .padding(.top,50)
                 Spacer()
             }.background(Color.black)
