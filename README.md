@@ -6,9 +6,10 @@
 - MVVM
 
 ### 📱 Screenshots  
-| Home | Profile |
-|------|--------------------------------------------------------------------------------------------------------------------------|
-|![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/6bed40db-cea5-4834-8b20-ccd516e2875a)| ![Profile](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/fdcce931-2761-4065-93bf-b950fdd638b3) |
+| Home | Wallet | Profile | 
+|------|--------|---------|
+|![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/6bed40db-cea5-4834-8b20-ccd516e2875a) |![Wallet](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/87655d33-e240-442e-af72-01421852dfcf) | ![Profile](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/fdcce931-2761-4065-93bf-b950fdd638b3) |
+
 
 
 ### 📝 Feature List 
