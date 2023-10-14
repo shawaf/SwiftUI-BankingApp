@@ -34,10 +34,10 @@ enum TabBarViewModel: Int, CaseIterable {
     
     var view: some View {
         switch self {
-        case .Home : return AnyView(HomeScreenView())
-        case .Statistics : return AnyView(StatisticsScreenView())
-        case .Wallet : return AnyView(WalletScreenView())
-        case .Profile : return AnyView(ProfileScreenView())
+        case .Home : return AnyView(HomeScreen())
+        case .Statistics : return AnyView(StatisticsScreen())
+        case .Wallet : return AnyView(WalletScreen())
+        case .Profile : return AnyView(ProfileScreen())
         }
     }
 }

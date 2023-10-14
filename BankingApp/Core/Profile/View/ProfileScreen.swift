@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProfileScreenView: View {
+struct ProfileScreen: View {
     let profileItems : [ProfileItem] = ProfileItem.list
     
     var body: some View {
@@ -69,6 +69,6 @@ struct ProfileScreenView: View {
 
 struct ProfileScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileScreenView()
+        ProfileScreen()
     }
 }

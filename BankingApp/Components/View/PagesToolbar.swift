@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct PagesToolbar: View {
-    
-    @Environment(\.dismiss) private var dismiss
-    
+        
     let pageTitle:String
     let isLight:Bool
     let showProfileImage: Bool
@@ -18,15 +16,8 @@ struct PagesToolbar: View {
     
     var body: some View {
         HStack {
-            Button{
-                dismiss()
-            } label: {
-                Image(systemName: "arrow.backward")
-                    .foregroundColor(isLight ? Color.black : Color.white)
-            }
-            Spacer()
             Text(pageTitle)
-                .font(.title2)
+                .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(isLight ? Color.black : Color.white)
             Spacer()

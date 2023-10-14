@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WalletScreenView: View {
+struct WalletScreen: View {
     let transactions: [TransactionModel] = TransactionModel.Mock_Transactions
     var body: some View {
         VStack{
@@ -70,7 +70,7 @@ struct WalletScreenView: View {
                     Spacer()
                 }
                 .frame(height: UIScreen.main.bounds.height/2.8)
-                .background(Color("darkgray"))
+                .background(.black)
                 .cornerRadius(50)
                 .padding(2)
 
@@ -131,6 +131,6 @@ struct WalletScreenView: View {
 
 struct WalletScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        WalletScreenView()
+        WalletScreen()
     }
 }
