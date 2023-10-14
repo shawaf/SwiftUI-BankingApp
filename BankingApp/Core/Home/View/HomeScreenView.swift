@@ -15,19 +15,9 @@ struct HomeScreenView: View {
                     MainToolbar(pageTitle: "Home", onlyImage: true)
                     HStack{
                         Text("My Cards")
-                            .font(.title2)
+                            .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(.black)
-                        Button{
-                            
-                        } label: {
-                            Image(systemName: "plus.circle")
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 25, height: 25)
-                                .foregroundColor(Color.black)
-                                .clipShape(Rectangle())
-                        }.padding(.leading, 5)
                         Spacer()
                       
                     }.padding(.leading, 20)
@@ -35,11 +25,26 @@ struct HomeScreenView: View {
                         ScrollView(.horizontal, showsIndicators: false){
                             LazyHStack(alignment: .top, spacing: 10){
                                 ForEach(0..<10, id: \.self) { item in
-                                    let cardType = item==0 ? CardType.MASTERCARD : CardType.VISA
+                                    if item == 0 {
+                                        Button{
+                                            
+                                        } label: {
+                                            Image(systemName: "plus")
+                                                .resizable()
+                                                .scaledToFill()
+                                                .frame(width: 30, height: 30)
+                                                .foregroundColor(.black)
+                                                .clipShape(Rectangle())
+                                        }.padding(.horizontal)
+                                            .frame(minHeight: 180)
+                                    }else {
+                                        let cardType = item==1 ? CardType.MASTERCARD : CardType.VISA
                                         CardView(isSelected: item == 0, cardType: cardType)
                                             .shadow(color: Color.gray.opacity(0.2), radius: 5)
+                                    }
                                 }
                             }.padding(20)
+                            
                         }
                     TransactionsView(transactions: TransactionModel.Mock_Transactions)
                 }

@@ -36,17 +36,22 @@ struct TransactionsView: View {
             
             VStack{
                 HStack{
-                    Text("Transactions")
+                    Text("Latest Transactions")
                         .font(.title2)
                         .fontWeight(.bold)
                         .foregroundColor(.black)
-                    Image(systemName: "arrow.up.arrow.down.circle")
-                        .resizable()
-                        .frame(width: 25, height: 25)
-                        .foregroundColor(.black)
                     Spacer()
+                    Button{
+                        
+                    } label: {
+                        Image(systemName: "arrow.up.right")
+                            .resizable()
+                            .frame(width: 17, height: 17)
+                            .foregroundColor(.black)
+                    }
                 }
                 .padding(.horizontal)
+                .padding(.trailing, 15)
                 .padding(.top, 30)
                 
                 LazyVStack (spacing: 25){

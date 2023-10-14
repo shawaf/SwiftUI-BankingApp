@@ -32,6 +32,7 @@ struct MainTabView: View {
             .font(.footnote)
             
         }.ignoresSafeArea()
+
     }
 }
 

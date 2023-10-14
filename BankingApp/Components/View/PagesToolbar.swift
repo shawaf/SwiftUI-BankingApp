@@ -9,14 +9,17 @@ import SwiftUI
 
 struct PagesToolbar: View {
     
+    @Environment(\.dismiss) private var dismiss
+    
     let pageTitle:String
     let isLight:Bool
     let showProfileImage: Bool
     
+    
     var body: some View {
         HStack {
             Button{
-                
+                dismiss()
             } label: {
                 Image(systemName: "arrow.backward")
                     .foregroundColor(isLight ? Color.black : Color.white)

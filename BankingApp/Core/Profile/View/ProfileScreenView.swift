@@ -37,8 +37,6 @@ struct ProfileScreenView: View {
                             .frame(width: 100, height: 4)
                             .foregroundColor(Color("card_selected_color"))
                             .cornerRadius(10)
-                        
-                        
                     }
                     Spacer()
                     Button{
