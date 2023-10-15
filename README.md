@@ -8,7 +8,7 @@
 ### 📱 Screenshots  
 | Home | Wallet | Statistics | Profile | 
 |------|--------|------------|---------|
-|![Home](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/6bed40db-cea5-4834-8b20-ccd516e2875a) |![Wallet](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/87655d33-e240-442e-af72-01421852dfcf) | ![Statistics](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/963e86e1-2eb5-4081-829e-d5ab9e1ad13e) | ![Profile](https://github.com/shawaf/SwiftUI-BankingApp/assets/6817107/fdcce931-2761-4065-93bf-b950fdd638b3) |
+|![Home](ScreenShots/1-Home.jpeg) |![Wallet](ScreenShots/3-Wallet.jpeg) | ![Statistics](ScreenShots/2-Statistics.jpeg) | ![Profile](ScreenShots/4-Profile.jpeg) |
 
 
 
