@@ -47,7 +47,7 @@ struct SpendingIncomeView: View {
                     .foregroundColor(.gray)
                 
                 Text("$\(moneyValue)")
-                    .font(.title2)
+                    .font(.title3)
                     .fontWeight(.semibold)
                     .foregroundColor(.black)
             }

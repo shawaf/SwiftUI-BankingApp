@@ -13,11 +13,14 @@ struct WalletScreen: View {
         VStack{
             ScrollView{
                 VStack(alignment: .center){
+                    PagesToolbar(pageTitle: "Wallet", isLight: false, showProfileImage: true)
+                        .padding(.top, 50)
+                        .padding(.horizontal)
                     Text("Your Balance")
                         .font(.title2)
                         .fontWeight(.medium)
                         .foregroundColor(.white)
-                        .padding(.top, 70)
+                        .padding(.top, 10)
                     Text("$100.930.12")
                         .font(.largeTitle)
                         .fontWeight(.bold)
@@ -69,7 +72,7 @@ struct WalletScreen: View {
                         .padding()
                     Spacer()
                 }
-                .frame(height: UIScreen.main.bounds.height/2.8)
+                .frame(height: UIScreen.main.bounds.height/2.3)
                 .background(.black)
                 .cornerRadius(50)
                 .padding(2)

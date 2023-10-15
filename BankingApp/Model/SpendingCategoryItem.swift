@@ -17,12 +17,12 @@ struct SpendingCategoryItem : Hashable, Identifiable {
 
 extension SpendingCategoryItem {
     static var Mock_List : [SpendingCategoryItem] = [
-        .init(name: "Food & Bav", totalSpend: 100, icon: "fork.knife", color: "yellow"),
-        .init(name: "Shopping", totalSpend: 200, icon: "handbag.fill", color: "lightblue"),
-        .init(name: "Subscribtion", totalSpend: 300, icon: "dollarsign.circle.fill", color: "lightgreen"),
-        .init(name: "Schools", totalSpend: 200, icon: "roman.shade.open", color: "pink"),
-        .init(name: "Trips", totalSpend: 100, icon: "figure.hiking", color: "move"),
-        .init(name: "Rent", totalSpend: 40, icon: "house.fill", color: "yellow"),
+        .init(name: "Food & Bav", totalSpend: 100, icon: "fork.knife", color: "card_selected_color"),
+        .init(name: "Shopping", totalSpend: 200, icon: "handbag.fill", color: "blue2"),
+        .init(name: "Subscribtion", totalSpend: 300, icon: "dollarsign.circle.fill", color: "blue3"),
+        .init(name: "Schools", totalSpend: 200, icon: "roman.shade.open", color: "card_selected_color"),
+        .init(name: "Trips", totalSpend: 100, icon: "figure.hiking", color: "lightblue"),
+        .init(name: "Rent", totalSpend: 40, icon: "house.fill", color: "move"),
         .init(name: "Bills", totalSpend: 600, icon: "note.text", color: "lightergray"),
     ]
 }

@@ -15,7 +15,7 @@ struct SpedningCategoryItemView: View {
             VStack(alignment: .leading, spacing: 0){
                 Image(systemName: spedningCategory.icon)
                     .resizable()
-                    .frame(width: 35, height: 35)
+                    .frame(width: 30, height: 30)
                     .padding(10)
                 Spacer()
                 Text(spedningCategory.name)
