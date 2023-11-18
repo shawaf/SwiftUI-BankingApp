@@ -4,6 +4,9 @@
 - SwiftUI 
 - Firebase Firestore
 - MVVM
+  
+|                                      :information_source: This app Still a WORK IN PROGRESS                                               |
+|-------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### 📱 Screenshots  
 | Home | Wallet | Statistics | Profile | 
@@ -21,8 +24,7 @@
 - [ ] Cards Management
 - [ ] Light and Dark Modes.
 
-### 🎨 [Desing Inspired by Link](https://dribbble.com/shots/14828147-money-management?utm_source=Clipboard_Shot&utm_campaign=arcimaryam&utm_content=money%20management&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=arcimaryam&utm_content=money%20management&utm_medium=Social_Share)
+### 🎨 Desing Inspired by [Link](https://dribbble.com/shots/14828147-money-management?utm_source=Clipboard_Shot&utm_campaign=arcimaryam&utm_content=money%20management&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=arcimaryam&utm_content=money%20management&utm_medium=Social_Share)
 
 
-|                                      :information_source: This app Still a WORK IN PROGRESS                                               |
-|-------------------------------------------------------------------------------------------------------------------------------------------|
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
