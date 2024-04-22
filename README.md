@@ -18,9 +18,9 @@
 ### 📝 Feature List 
 - [ ] Authorization
 - [X] Home
-- [ ] Wallet
-- [ ] Statistics
-- [ ] Profile
+- [X] Wallet
+- [X] Statistics
+- [X] Profile
 - [ ] Cards Management
 - [ ] Light and Dark Modes.
 
